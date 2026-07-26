@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Channel search",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Any user can send text to search for registered channel"
+            }
+          }
+        ],
+        "send": {
+          "text": "/text"
+        }
+      }
+    ]
+  }
+]
